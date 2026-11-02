@@ -1,0 +1,39 @@
+# Intelligent Food Calorie Estimation System — .gitignore
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Database (generated at runtime; include schema but not personal data)
+data/food_tracker.db
+*.db-wal
+*.db-shm
+
+# ML model cache (large files downloaded from Hugging Face)
+.cache/
+~/.cache/huggingface/
+
+# Streamlit cache / secrets
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+*.env
